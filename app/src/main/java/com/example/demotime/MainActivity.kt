@@ -32,6 +32,7 @@ class MainActivity : ComponentActivity() {
                 NavHost(navController = navController, startDestination = Screen.Login.route) {
                     loginScreen { name ->
                         navController.navigateToHome(name)
+                        // hello
                     }
                     
                     homeScreen {
